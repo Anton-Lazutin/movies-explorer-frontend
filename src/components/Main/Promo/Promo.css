@@ -1,0 +1,28 @@
+.page__promo {
+  padding: 80px 0 120px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-color: #F3C1F8;
+  position: relative; 
+}
+
+.promo__title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: center;
+  width: 730px;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+}
+
+.promo__background {
+  background-image: url(../../../images/background-logo.svg);
+  height: 320px;
+  width: 320px;
+  position: relative; 
+}

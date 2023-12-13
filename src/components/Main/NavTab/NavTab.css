@@ -1,0 +1,21 @@
+.navTab {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navTab__list {
+    margin: 0;
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+}
+
+.navTab__line {
+    margin: 24px 0;
+}
+
+.navTab__line:nth-last-of-type(2) {
+    margin: 24px 40px;
+}
