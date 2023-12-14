@@ -22,3 +22,7 @@
 .navTab__link {
   color: #fff;
 }
+.navTab__link:hover {
+  opacity: .7;
+  cursor: pointer;
+}

@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  border-top: 1px solid #424242;
+  border-top: 1px solid #E8E8E8;
 }
 
 .footer__nav {
@@ -34,6 +34,7 @@
 .footte__link {
   margin-right: 20px;
   text-decoration: none;
+  color: #000;
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
@@ -44,9 +45,7 @@
   margin-right: 0;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .footte__link:hover {
-    opacity: .7;
-    cursor: pointer;
-  }
+.footte__link:hover {
+  opacity: .7;
+  cursor: pointer;
 }
