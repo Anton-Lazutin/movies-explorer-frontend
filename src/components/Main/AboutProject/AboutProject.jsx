@@ -12,7 +12,7 @@ export default function AboutProject() {
           <p className="aboutProject__description">У каждого этапа был мягкий и жёсткий дедлайн, которые нужно было соблюдать, чтобы успешно защититься.</p>
         </div>
         <div className="aboutProject__time-learn">
-            <p className="aboutProject__progress about__progress_type_backend" >1 неделя</p>
+            <p className="aboutProject__progress aboutProject__progress_type_backend" >1 неделя</p>
             <p className="aboutProject__progress">4 недели</p>
             <span className="aboutProject__text">Back-end</span>
             <span className="aboutProject__text">Front-end</span>
