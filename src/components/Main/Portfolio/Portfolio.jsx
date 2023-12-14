@@ -6,7 +6,7 @@ export default function Portfolio() {
         <h2 className='portfolio__title'>Портфолио</h2>
         <nav className="portfolio__nav">
           <ul className='portfolio__lists'>
-            <li className='portfolio__list'>
+            <li className='portfolio__line'>
               <a 
                 href='https://github.com/Anton-Lazutin/how-to-learn' 
                 target='_blank' 
@@ -17,7 +17,7 @@ export default function Portfolio() {
                 <button type='button' className='portfolio__button'></button>
               </a>
             </li>
-            <li className='portfolio__list'>
+            <li className='portfolio__line'>
               <a
                 href='https://github.com/Anton-Lazutin/russian-travel' 
                 target='_blank' 
@@ -28,7 +28,7 @@ export default function Portfolio() {
                 <button type='button' className='portfolio__button'></button>
               </a>
             </li>
-            <li className='portfolio__list'>
+            <li className='portfolio__line'>
               <a
                 href='https://github.com/Anton-Lazutin/react-mesto-auth' 
                 target='_blank' 

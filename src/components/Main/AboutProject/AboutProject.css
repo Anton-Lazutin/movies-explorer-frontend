@@ -1,8 +1,8 @@
-.page__about {
+.page__aboutProject {
   padding: 110px 70px;
 }
 
-.about__title {
+.aboutProject__title {
   margin: 0 auto;
   margin-bottom: 70px;
   padding-bottom: 24px;
@@ -14,7 +14,7 @@
   letter-spacing: -0.88px;
 }
 
-.about__container {
+.aboutProject__container {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -24,7 +24,7 @@
   margin-bottom: 110px;
 }
 
-.about__subtitle {
+.aboutProject__subtitle {
   margin: 0;
   font-size: 20px;
   font-weight: 400;
@@ -32,14 +32,15 @@
   letter-spacing: -0.8px;
 }
 
-.about__description {
+.aboutProject__description {
   margin: 0;
+  max-width: 550px;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 
-.about__time-learn {
+.aboutProject__time-learn {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -47,7 +48,7 @@
   row-gap: 14px;
 }
 
-.about__progress {
+.aboutProject__progress {
   margin: 0;
   padding-top: 9px;
   padding-bottom: 10px;
@@ -59,12 +60,12 @@
   line-height: normal;
 }
 
-.about__progress_type_backend {
+.aboutProject__progress_type_backend {
   background-color: #000;
   color: #FFF;
 }
 
-.about__text {
+.aboutProject__text {
   margin: 0;
   text-align: center;
   font-size: 14px;
