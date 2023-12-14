@@ -1,5 +1,6 @@
 .page__portfolio {
-  padding: 0 70px 125px;
+  padding: 100px 70px 125px;
+  font-family: Inter;
 }
 
 .portfolio__title {

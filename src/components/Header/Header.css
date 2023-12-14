@@ -25,11 +25,13 @@
 .header__signup {
   margin-right: 30px;
   text-decoration: none;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
   transition: opacity 0.3s linear;
+  color: #000;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
 }
 
 .header__signin {
@@ -42,10 +44,11 @@
   min-height: 32px;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
   color: #FFF;
   transition: opacity 0.3s linear;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
 }
