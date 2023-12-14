@@ -5,6 +5,12 @@
   padding: 0 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .page__header {
+    padding: 0 30px;
+  }
+}
+
 .header__link-home {
   display: block;
   margin: 18px 0;

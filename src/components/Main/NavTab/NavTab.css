@@ -20,15 +20,24 @@
   margin: 30px 40px 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .navTab__line {
+    margin: 24px 0;
+  }
+  .navTab__line:nth-last-of-type(2) {
+    margin: 24px 40px;
+  }
+}
+
 .navTab__link {
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px; 
+  line-height: 16px;
 }
 .navTab__link:hover {
-  opacity: .7;
+  opacity: 0.7;
   cursor: pointer;
 }

@@ -2,6 +2,12 @@
   padding: 110px 70px;
 }
 
+@media screen and (max-width: 768px) {
+  .page__aboutProject {
+    padding: 90px 50px;
+  }
+}
+
 .aboutProject__title {
   margin: 0 auto;
   margin-bottom: 70px;
@@ -25,12 +31,20 @@
   margin-bottom: 110px;
 }
 
+@media screen and (max-width: 768px) {
+  .aboutProject__container {
+    column-gap: 30px;
+    row-gap: 22px;
+    margin-bottom: 93px;
+  }
+}
+
 .aboutProject__subtitle {
   margin: 0;
   font-family: Inter;
-  font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  font-size: 20px;
   letter-spacing: -0.8px;
 }
 
@@ -38,9 +52,17 @@
   margin: 0;
   max-width: 550px;
   font-family: Inter;
-  font-size: 14px;
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
   line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutProject__description {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 .aboutProject__time-learn {
