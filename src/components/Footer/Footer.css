@@ -10,25 +10,58 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .page__footer {
+    padding: 45px 10px 0;
+  }
+}
+
 .footer__title {
   margin: 0 0 20px 0;
   text-align: center;
-  color: #A0A0A0;
+  color: #a0a0a0;
   font-family: Inter;
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer__title {
+    font-size: 12px;
+    line-height: normal;
+  }
+}
+
 .footer__container {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
-  border-top: 1px solid #E8E8E8;
+  border-top: 1px solid #e8e8e8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer__container {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    padding: 30px 0 0;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .footer__nav {
   display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer__nav {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
 }
 
 .footer__subtitle {
@@ -37,9 +70,18 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
+  grid-area: c;
 }
 
-.footte__link {
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer__subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #A0A0A0;
+  }
+}
+
+.footer__link {
   margin-right: 20px;
   text-decoration: none;
   color: #000;
@@ -47,14 +89,30 @@
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
-  transition: opacity .3s linear;
+  transition: opacity 0.3s linear;
+  grid-area: a;
 }
-
-.footte__link:last-of-type {
+.footer__link:last-of-type {
   margin-right: 0;
 }
-
-.footte__link:hover {
-  opacity: .7;
+.footer__link:hover {
+  opacity: 0.7;
   cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .footer__link {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    align-self: center;
+  }
+  .footer__link:last-of-type {
+    margin-top: 10px;
+  }
+}
+
+.footer__link_git {
+  grid-area: b;
 }

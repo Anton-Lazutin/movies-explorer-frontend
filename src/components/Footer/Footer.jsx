@@ -11,7 +11,7 @@ export default function Footer() {
           <a 
             href='https://practicum.yandex.ru/' 
             target='_blank' 
-            className="footte__link" 
+            className="footer__link" 
             rel="noreferrer"
           >
             Яндекс.Практикум
@@ -19,7 +19,7 @@ export default function Footer() {
           <a 
             href='https://github.com/Anton-Lazutin' 
             target='_blank' 
-            className="footte__link" 
+            className="footer__link footer__link_git" 
             rel="noreferrer"
           >
             Github

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background-position: center;
-  background-color: #F3C1F8;
+  background-color: #f3c1f8;
   position: relative;
 }
 
@@ -13,8 +13,15 @@
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .page__promo {
+    padding: 142px 0 180px;
+  }
+}
+
 .promo__title {
   margin: 0;
+  color: #000;
   font-size: 50px;
   font-weight: 400;
   line-height: 58px;
@@ -23,15 +30,32 @@
   letter-spacing: -2px;
   text-align: center;
   width: 730px;
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .promo__title {
+    max-width: 300px;
+    font-size: 31px;
+    line-height: 39px;
+    letter-spacing: -1.24px;
+  }
 }
 
 .promo__background {
   background-image: url(../../../images/background-logo.svg);
+  background-size: cover;
   height: 320px;
   width: 320px;
-  position: relative; 
+  position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .promo__background {
+    height: 248px;
+    width: 248px;
+  }
 }
