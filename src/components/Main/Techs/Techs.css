@@ -1,6 +1,6 @@
 .page__techs {
   padding: 100px 70px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   font-family: Inter;
 }
 
@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .page__techs {
     padding: 70px 18px;
   }
@@ -20,7 +20,7 @@
   margin: 0 auto;
   margin-bottom: 90px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #000;;
+  border-bottom: 1px solid #000;
   max-width: 100%;
   font-size: 22px;
   font-weight: 400;
@@ -34,7 +34,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .techs__title {
     margin-bottom: 60px;
     padding-bottom: 26px;
@@ -58,7 +58,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .techs__subtitle {
     margin-bottom: 24px;
     font-size: 30px;
@@ -89,7 +89,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .techs__description {
     margin-bottom: 50px;
     font-size: 11px;
@@ -115,7 +115,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .techs__list {
     grid-template-columns: repeat(2, 84px);
   }
@@ -124,7 +124,7 @@
 .techs__line {
   padding: 21px 0;
   border-radius: 10px;
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
   text-align: center;
   font-size: 14px;
   font-family: Inter;

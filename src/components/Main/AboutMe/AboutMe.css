@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .page__aboutMe {
     padding: 70px 14px;
   }
@@ -27,7 +27,7 @@
   letter-spacing: -0.88px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__title {
     font-size: 18px;
     letter-spacing: -0.72px;
@@ -41,8 +41,7 @@
   display: grid;
   justify-content: space-between;
   grid-template-columns: minmax(0, 600px) 270px;
-  grid-template-areas:
-    'aboutMe__text-container aboutMe__photo';
+  grid-template-areas: "aboutMe__text-container aboutMe__photo";
 }
 
 @media screen and (max-width: 768px) {
@@ -51,12 +50,12 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__container {
     grid-template-columns: 1fr;
     grid-template-areas:
-    'aboutMe__photo'
-    'aboutMe__text-container';
+      "aboutMe__photo"
+      "aboutMe__text-container";
   }
 }
 
@@ -81,7 +80,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__name {
     font-size: 30px;
     line-height: normal;
@@ -105,7 +104,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__job {
     font-size: 11px;
     line-height: 16px;
@@ -127,7 +126,7 @@
     line-height: 18px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__description {
     font-size: 11px;
     line-height: 16px;
@@ -160,7 +159,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .aboutMe__photo {
     width: 292px;
     height: 352px;

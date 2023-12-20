@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .page__promo {
     padding: 142px 0 180px;
   }
@@ -36,7 +36,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .promo__title {
     max-width: 300px;
     font-size: 31px;
@@ -53,7 +53,7 @@
   position: relative;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .promo__background {
     height: 248px;
     width: 248px;
