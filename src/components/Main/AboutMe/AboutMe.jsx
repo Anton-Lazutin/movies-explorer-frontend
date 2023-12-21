@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import { Link } from 'react-router-dom';
 import photo from "../../../images/photo.jpg";
 
 export default function AboutMe() {
@@ -15,14 +16,14 @@ export default function AboutMe() {
             путешествовать. После того, как прошёл курс по веб-разработке, начал
             заниматься фриланс-заказами и ушёл с постоянной работы.
           </p>
-          <a
-            href="https://github.com/Anton-Lazutin"
+          <Link
+            to={"https://github.com/Anton-Lazutin"}
             target="_blank"
             className="aboutMe__link"
             rel="noopener noreferrer"
           >
             Github
-          </a>
+          </Link>
         </div>
         <img src={photo} alt="фотография" className="aboutMe__photo" />
       </div>
