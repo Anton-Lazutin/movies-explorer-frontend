@@ -27,7 +27,6 @@
 }
 
 .login__error {
-  margin-top: 10px;
   display: block;
   min-height: 24px;
   font-size: 10px;
@@ -63,7 +62,6 @@
 }
 
 .profile__error {
-  margin-top: 5px;
   display: block;
   min-height: 16px;
   font-size: 10px;

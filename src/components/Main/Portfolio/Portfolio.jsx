@@ -15,8 +15,8 @@ export default function Portfolio() {
                 rel="noopener noreferrer"
               >
                 <p className='portfolio__subtitle'>Статичный сайт</p>
-                <button type='button' className='portfolio__button'></button>
               </Link>
+                <button type='button' className='portfolio__button'></button>
             </li>
             <li className='portfolio__line'>
               <Link
@@ -26,8 +26,8 @@ export default function Portfolio() {
                 rel="noopener noreferrer"
               >
                 <p className='portfolio__subtitle'>Адаптивный сайт</p>
-                <button type='button' className='portfolio__button'></button>
               </Link>
+                <button type='button' className='portfolio__button'></button>
             </li>
             <li className='portfolio__line'>
               <Link
@@ -37,8 +37,8 @@ export default function Portfolio() {
                 rel="noopener noreferrer"
               >
                 <p className='portfolio__subtitle'>Одностраничное приложение</p>
-                <button type='button' className='portfolio__button'></button>
               </Link>
+                <button type='button' className='portfolio__button'></button>
             </li>
           </ul>
         </nav>

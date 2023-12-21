@@ -41,6 +41,12 @@
   padding: 0;
 }
 
+.portfolio__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
 .portfolio__link {
   text-decoration: none;
   color: #000;

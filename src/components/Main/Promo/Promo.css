@@ -30,7 +30,7 @@
   letter-spacing: -2px;
   text-align: center;
   width: 730px;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

@@ -25,7 +25,7 @@ export default function AboutProject() {
         </div>
       </div>
       <div className="about-project__time-learn">
-        <p className="aabout-project__progress about-project__progress_type_backend">
+        <p className="about-project__progress about-project__progress_type_backend">
           1 неделя
         </p>
         <p className="about-project__progress">4 недели</p>

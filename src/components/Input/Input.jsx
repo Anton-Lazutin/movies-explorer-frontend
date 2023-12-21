@@ -18,6 +18,7 @@ export default function Input({
           <span className="login__subtitle">{title}</span>
           <input
             required
+            placeholder={`${name}`}
             type={type}
             name={name}
             minLength={minLength || ""}
@@ -38,6 +39,7 @@ export default function Input({
             <span className="profile__subtitle">{title}</span>
             <input
               required
+              placeholder="текст"
               type={type}
               name={name}
               minLength={minLength || ""}
