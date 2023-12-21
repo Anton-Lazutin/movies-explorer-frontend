@@ -4,23 +4,24 @@
 
 .card__overview {
   padding: 14px;
-  min-height: 68px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
-  max-width: 300px;
-  font-family: Inter;
+  max-width: 360px;
+  font-family: Inter, Arial, sans-serif;
 }
 
 @media screen and (max-width: 768px) {
   .card__overview {
-    max-width: 275px;
+    max-width: 339px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .card__overview {
-    max-width: 235px;
+    max-width: 300px;
+    margin-top: 5px;
   }
 }
 
@@ -56,19 +57,25 @@
   right: 14px;
   cursor: pointer;
   transition: opacity 0.3s linear;
+  display: none;
+}
+
+.card:hover .card__save {
+  display: block;
 }
 
 .card__save_active {
   background-image: url(../../../images/checked-button.svg);
   width: 21px;
   height: 21px;
+  display: block;
 }
 
 .card__image {
   object-fit: cover;
   display: block;
   width: 100%;
-  height: 151px;
+  height: 200px;
   cursor: pointer;
   border-radius: 9px;
 }
@@ -90,6 +97,12 @@
   top: 14px;
   right: 14px;
   background-image: url(../../../images/delete-button.svg);
+  background-position: right;
+  display: none;
+}
+
+.card:hover .card__save_type_delete {
+  display: block;
 }
 
 .card__save:hover {

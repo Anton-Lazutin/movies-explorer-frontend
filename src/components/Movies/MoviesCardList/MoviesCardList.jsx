@@ -7,8 +7,8 @@ export default function MoviesCardList({ movies }) {
   const fact = movies.slice(0, count);
 
   function printCards() {
-    const counter = { init: 16, step: 4 };
-    if (window.innerWidth < 1023) {
+    const counter = { init: 12, step: 3 };
+    if (window.innerWidth < 1440) {
       counter.init = 8;
       counter.step = 2;
     }

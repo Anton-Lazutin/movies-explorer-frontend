@@ -1,7 +1,7 @@
 .checkbox {
   display: flex;
   align-items: center;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .checkbox__click {
@@ -29,26 +29,12 @@
   background-image: url(../../../images/tumb-on.svg);
 }
 
-/* .checkbox__tumb {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #919191;
-  border: 1px solid #fff;
-  transition: margin-left 0.3s, background-color 0.3s;
-} */
-
-/* .checkbox__click_active .checkbox__circle {
-  margin-left: 18px;
-  background-color: #3ddc84;
-} */
-
 @media screen and (max-width: 770px) {
   .checkbox__subtitle {
     padding: 0 20px 0 15px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   .checkbox {
     padding-top: 54px;
     padding-left: 38px;
