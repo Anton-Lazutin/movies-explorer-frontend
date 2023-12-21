@@ -24,8 +24,8 @@ export default function MoviesCardList({ movies }) {
   }
 
   return (
-    <section className="cardList page__cardList">
-      <ul className="cardList__lists">
+    <section className="card-list page__card-list">
+      <ul className="card-list__lists">
         {fact.map((data) => {
           return (
             <MoviesCard
@@ -39,8 +39,8 @@ export default function MoviesCardList({ movies }) {
       </ul>
       <button
         type="button"
-        className={`cardList__more ${
-          count >= movies.length && "cardList__more_hidden"
+        className={`card-list__more ${
+          count >= movies.length && "card-list__more_hidden"
         }`}
         onClick={clickMore}
       >

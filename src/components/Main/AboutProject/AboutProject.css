@@ -1,20 +1,20 @@
-.page__aboutProject {
+.page__about-project {
   padding: 110px 70px;
 }
 
 @media screen and (max-width: 768px) {
-  .page__aboutProject {
+  .page__about-project {
     padding: 90px 50px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .page__aboutProject {
+  .page__about-project {
     padding: 70px 18px;
   }
 }
 
-.aboutProject__title {
+.about-project__title {
   margin: 0 auto;
   margin-bottom: 70px;
   padding-bottom: 24px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__title {
+  .about-project__title {
     font-size: 18px;
     letter-spacing: -0.72px;
     padding-bottom: 28px;
@@ -38,7 +38,7 @@
   }
 }
 
-.aboutProject__container {
+.about-project__container {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -48,7 +48,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .aboutProject__container {
+  .about-project__container {
     column-gap: 30px;
     row-gap: 22px;
     margin-bottom: 93px;
@@ -56,14 +56,14 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__container {
+  .about-project__container {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 54px;
     margin-bottom: 55px;
   }
 }
 
-.aboutProject__subtitle {
+.about-project__subtitle {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
   font-weight: 400;
@@ -73,13 +73,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__subtitle {
+  .about-project__subtitle {
     font-size: 18px;
     letter-spacing: -0.72px;
   }
 }
 
-.aboutProject__description {
+.about-project__description {
   margin-top: 26px;
   margin-bottom: 0;
   max-width: 550px;
@@ -91,7 +91,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .aboutProject__description {
+  .about-project__description {
     font-size: 12px;
     line-height: 18px;
     margin-top: 20px;
@@ -99,13 +99,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__description {
+  .about-project__description {
     margin-top: 15px;
     font-size: 11px;
   }
 }
 
-.aboutProject__time-learn {
+.about-project__time-learn {
   max-width: 100%;
   margin: 0 auto;
   display: grid;
@@ -114,13 +114,13 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__time-learn {
+  .about-project__time-learn {
     grid-template-columns: 100px 1fr;
     row-gap: 10px;
   }
 }
 
-.aboutProject__progress {
+.about-project__progress {
   margin: 0;
   padding-top: 9px;
   padding-bottom: 10px;
@@ -134,18 +134,18 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__progress {
+  .about-project__progress {
     grid-template-columns: 100px 1fr;
     font-size: 11px;
   }
 }
 
-.aboutProject__progress_type_backend {
+.about-project__progress_type_backend {
   background-color: #000;
   color: #fff;
 }
 
-.aboutProject__text {
+.about-project__text {
   margin: 0;
   text-align: center;
   font-family: Inter, Arial, sans-serif;
@@ -156,7 +156,7 @@
 }
 
 @media screen and (max-width: 425px) {
-  .aboutProject__text {
+  .about-project__text {
     font-size: 11px;
   }
 }
