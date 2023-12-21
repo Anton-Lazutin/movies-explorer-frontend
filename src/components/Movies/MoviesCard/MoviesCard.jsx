@@ -18,7 +18,7 @@ export default function MoviesCard({ name, src, trailerLink }) {
     <li className="card">
       <div className="card__container">
         <Link to={trailerLink} target="_blank">
-          <img src={src} alt="film" className="card__image" />
+          <img src={src} alt="карточка фильма" className="card__image" />
         </Link>
         {pathname === "/movies" ? (
           <button
