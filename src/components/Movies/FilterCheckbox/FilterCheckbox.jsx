@@ -6,7 +6,7 @@ export default function FilterCheckbox({ isCheck, changeShort }) {
     <div className="checkbox">
       <div
         className={`checkbox__click ${
-          !isCheck ? "checkbox__click_active" : ""
+          isCheck ? "checkbox__click_active" : ""
         }`}
         onClick={() => changeShort()}
         

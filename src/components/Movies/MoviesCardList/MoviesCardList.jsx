@@ -4,7 +4,7 @@ import "./MoviesCardList.css";
 import { useState } from "react";
 import Preloader from '../Preloader/Preloader';
 
-export default function MoviesCardList({ movies, addMovie, isLoading, savedMovies, onDelete, serverError, firstEntrance }) {
+export default function MoviesCardList({ movies, addMovie, isLoading, savedMovies, onDelete }) {
   const { pathname } = useLocation()
   const [count, setCount] = useState(printCards().init);
   const fact = movies.slice(0, count);
@@ -28,8 +28,8 @@ export default function MoviesCardList({ movies, addMovie, isLoading, savedMovie
 
   return (
     <section className="card-list page__card-list">
-      <ul className="card-list__lists">
-      {isLoading ? <Preloader /> :
+      <ul className='card-list__lists'>
+        {isLoading ? <Preloader /> :
           (pathname === '/movies' && fact.length !== 0) ?
             fact.map(data => {
               return (

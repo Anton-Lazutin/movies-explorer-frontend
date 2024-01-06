@@ -45,6 +45,7 @@ export default function SearchForm({
         className="search-form__input"
         type="text"
         placeholder="Фильм"
+        name="search"
         value={values.search || ""}
         onChange={(evt) => {
           handleChange(evt);
