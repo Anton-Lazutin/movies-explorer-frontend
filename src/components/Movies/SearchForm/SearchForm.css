@@ -75,6 +75,10 @@
   opacity: 0.8;
 }
 
+.search-form__button_disabled {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 550px) {
   .search-form__button {
     width: 59px;
