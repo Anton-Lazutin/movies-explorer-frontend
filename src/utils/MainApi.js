@@ -102,8 +102,8 @@ class MainApi {
 }
 
 const mainApi = new MainApi({
-  baseUrl: "http://localhost:3000",
-  // baseUrl: "api.movies.lazutin.nomoredomainsmonster.ru",
+  // baseUrl: "http://localhost:3000",
+  baseUrl: "https://api.movies.lazutin.nomoredomainsmonster.ru",
 });
 
 export default mainApi;
