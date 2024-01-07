@@ -74,3 +74,7 @@
 .card-list__more_hidden {
   visibility: hidden;
 }
+
+.card-list__search-error {
+  text-align: center;
+}

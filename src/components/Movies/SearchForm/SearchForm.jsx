@@ -1,8 +1,9 @@
-import { React, useEffect } from "react";
+import { React, useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
 import "./SearchForm.css";
 import FilterCheckbox from "../FilterCheckbox/FilterCheckbox";
 import useFormValidation from "../../../hooks/useFormValidation/useFormValidation";
+import ErrorContext from "../../../contexts/ErrorContext";
 
 export default function SearchForm({
   isCheck,
@@ -13,6 +14,7 @@ export default function SearchForm({
   savedMovie
 }) {
   const { pathname } = useLocation();
+  const isError = useContext(ErrorContext)
   const { values, handleChange, reset } = useFormValidation();
 
   useEffect(() => {
@@ -53,6 +55,7 @@ export default function SearchForm({
         }}
         disabled={savedMovie ? (savedMovie.length === 0 && true) : false}
       />
+      <span className={`search-form__error ${isError && 'search-form__error_active'}`}>{'Введите ключевое слово'}</span>
       <button type="submit" className={`search-form__button ${savedMovie ? (pathname === '/saved-movies' && savedMovie.length === 0) && 'search-form__button_disabled' : ''}`}>
         Найти
       </button>

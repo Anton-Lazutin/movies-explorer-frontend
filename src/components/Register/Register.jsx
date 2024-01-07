@@ -1,6 +1,7 @@
 import Input from "../Input/Input";
 import LoginRegister from "../LoginRegister/LoginRegister";
 import useFormValidation from "../../hooks/useFormValidation/useFormValidation";
+import EmailRegex from "../../utils/constants";
 
 export default function Register({ name, onRegister, setIsError }) {
   const { values, errors, isInputValid, isValid, handleChange } = useFormValidation()
@@ -38,6 +39,7 @@ export default function Register({ name, onRegister, setIsError }) {
           setIsError(false)
         }}
         placeholder={'Введите ваш E-mail'}
+        pattern={EmailRegex}
       />
       <Input
         name="password"

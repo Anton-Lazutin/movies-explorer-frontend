@@ -8,7 +8,7 @@ import mainApi from "../utils/MainApi";
 import SendContext from "../contexts/SendContext";
 import CurrentUserContext from "../contexts/CurrentUserContext.js";
 import ErrorContext from "../contexts/ErrorContext";
-// import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
+import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import Preloader from "./Movies/Preloader/Preloader";
 
 export default function App() {
