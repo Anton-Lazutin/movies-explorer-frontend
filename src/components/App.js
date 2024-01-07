@@ -10,6 +10,8 @@ import CurrentUserContext from "../contexts/CurrentUserContext.js";
 import ErrorContext from "../contexts/ErrorContext";
 import ProtectedRoute from "./ProtectedRoute/ProtectedRoute";
 import Preloader from "./Movies/Preloader/Preloader";
+import ProtectedProfile from "./ProtectedRoute/ProtectedProfile.jsx";
+import ProtectedMovies from "./ProtectedRoute/ProtectedMovies.jsx";
 
 export default function App() {
   const navigate = useNavigate();
@@ -199,54 +201,46 @@ export default function App() {
                 <Route
                   path="/profile"
                   element={
-                    <>
-                      <Header />
-                      <Main
-                        name="profile"
-                        loggedIn={loggedIn}
-                        logOut={logOut}
-                        setIsError={setIsError}
-                        isSuccess={isSuccess}
-                        setSuccess={setSuccess}
-                        editUserData={editUserData}
-                        setIsEdit={setIsEdit}
-                        isEdit={isEdit}
-                      />
-                    </>
+                    <ProtectedRoute
+                      element={ProtectedProfile}
+                      name="profile"
+                      loggedIn={loggedIn}
+                      logOut={logOut}
+                      setIsError={setIsError}
+                      isSuccess={isSuccess}
+                      setSuccess={setSuccess}
+                      editUserData={editUserData}
+                      setIsEdit={setIsEdit}
+                      isEdit={isEdit}
+                    />
                   }
                 />
 
                 <Route
                   path="/movies"
                   element={
-                    <>
-                      <Header />
-                      <Main
-                        name="movies"
-                        loggedIn={loggedIn}
-                        setIsError={setIsError}
-                        savedMovies={savedMovies}
-                        addMovie={handleToggelMovie}
-                      />
-                      <Footer />
-                    </>
+                    <ProtectedRoute
+                      element={ProtectedMovies}
+                      name="movies"
+                      loggedIn={loggedIn}
+                      setIsError={setIsError}
+                      savedMovies={savedMovies}
+                      addMovie={handleToggelMovie}
+                    />
                   }
                 />
 
                 <Route
                   path="/saved-movies"
                   element={
-                    <>
-                      <Header />
-                      <Main
-                        name="savedmovies"
-                        loggedIn={loggedIn}
-                        setIsError={setIsError}
-                        onDelete={handleDeleteMovie}
-                        savedMovies={savedMovies}
-                      />
-                      <Footer />
-                    </>
+                    <ProtectedRoute
+                      element={ProtectedMovies}
+                      name="savedmovies"
+                      loggedIn={loggedIn}
+                      setIsError={setIsError}
+                      onDelete={handleDeleteMovie}
+                      savedMovies={savedMovies}
+                    />
                   }
                 />
 
