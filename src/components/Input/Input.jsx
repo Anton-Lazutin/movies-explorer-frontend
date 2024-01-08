@@ -14,6 +14,7 @@ export default function Input({
   onChange,
   isEdit,
   placeholder,
+  pattern
 }) {
   const isSend = useContext(SendContext);
 
@@ -37,6 +38,7 @@ export default function Input({
             autoComplete="on"
             disabled={isSend}
             placeholder={placeholder}
+            pattern={pattern}
           />
           <span className="login__error">{error}</span>
         </div>
@@ -58,6 +60,7 @@ export default function Input({
               value={value || ""}
               onChange={onChange}
               disabled={isSend || !isEdit}
+              pattern={pattern}
             />
           </div>
           <span
