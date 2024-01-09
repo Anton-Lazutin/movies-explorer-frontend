@@ -1,20 +1,15 @@
 import "./FilterCheckbox.css";
-import React, { useState } from "react";
 
-export default function FilterCheckbox() {
-  const [isChecked, setIsChecked] = useState(false);
-
-  const handleClick = () => {
-    setIsChecked(!isChecked);
-  };
-
+export default function FilterCheckbox({ isCheck, changeShort }) {
+  
   return (
     <div className="checkbox">
       <div
         className={`checkbox__click ${
-          isChecked ? "checkbox__click_active" : ""
+          isCheck ? "checkbox__click_active" : ""
         }`}
-        onClick={handleClick}
+        onClick={() => changeShort()}
+        
       >
         <span className="checkbox__tumb"></span>
       </div>

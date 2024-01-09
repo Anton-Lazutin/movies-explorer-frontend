@@ -75,6 +75,10 @@
   opacity: 0.8;
 }
 
+.search-form__button_disabled {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 550px) {
   .search-form__button {
     width: 59px;
@@ -99,5 +103,28 @@
   .search-form__line {
     order: 2;
     border: 0;
+  }
+}
+
+.search-form__error {
+  visibility: hidden;
+  font-family: Inter, Arial, sans-serif;
+  min-height: 14px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: normal;
+  color: red;
+}
+
+.search-form__error_active {
+  visibility: visible;
+}
+
+@media screen and (max-width: 550px) {
+  .search-form__error {
+    position: absolute;
+    top: 185px;
+    left: 80px;
   }
 }
