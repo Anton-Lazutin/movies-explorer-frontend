@@ -95,7 +95,7 @@ export default function MoviesCardList({
           }`}
           onClick={clickMore}
         >
-          Ёще
+          Ещё
         </button>
       )}
     </section>
