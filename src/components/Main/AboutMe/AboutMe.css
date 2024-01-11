@@ -171,3 +171,9 @@
     margin: 0 auto 40px;
   }
 }
+
+.about-me__links {
+  max-width: 140px;
+  display: flex;
+  justify-content: space-between;
+}

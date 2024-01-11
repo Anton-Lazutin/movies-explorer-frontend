@@ -16,6 +16,7 @@ export default function AboutMe() {
             путешествовать. После того, как прошёл курс по веб-разработке, начал
             заниматься фриланс-заказами и ушёл с постоянной работы.
           </p>
+          <div className="about-me__links">
           <Link
             to={"https://github.com/Anton-Lazutin"}
             target="_blank"
@@ -24,6 +25,15 @@ export default function AboutMe() {
           >
             Github
           </Link>
+          <Link
+            to={"https://t.me/tony_xv"}
+            target="_blank"
+            className="about-me__link"
+            rel="noopener noreferrer"
+          >
+            Telegram
+          </Link>
+          </div>
         </div>
         <img src={photo} alt="фотография" className="about-me__photo" />
       </div>
