@@ -45,20 +45,15 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .portfolio__link {
   text-decoration: none;
   color: #000;
-  padding-bottom: 9px;
   margin-bottom: 20px;
-  border-bottom: 1px solid #e8e8e8;
   display: flex;
   justify-content: space-between;
-}
-.portfolio__link_type_last {
-  margin-bottom: 0;
-  border: none;
 }
 
 @media screen and (max-width: 425px) {
